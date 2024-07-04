@@ -1,0 +1,27 @@
+p {
+  color: mediumturquoise;
+  background-color: black;
+  height: 100px;
+  width: 300px;
+
+  /* This is four sides margin */
+  /* margin: 100px; */
+
+  /* This is up-down Left-right margin */
+  /* margin: 100px 0; */
+  /* margin: 100px 50px 200px 30px; */
+  /* This is margin of all size */
+  margin: 80px;
+  /* padding: 50px 10px 200px 30px; */
+  /* padding-left: 200px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 59px; */
+  padding: 20px;
+  border: 5px solid mediumturquoise;
+  /* border-radius: 10px;
+  border-width: 1px;
+  border-style: dotted;
+  border-color: crimson;
+} */
+}

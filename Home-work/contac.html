@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contac</title>
+    <link
+      rel="shortcut icon"
+      href="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/24/external-samsung-pay-a-mobile-payment-service-to-make-secure-payments-logo-bold-tal-revivo.png"
+      alt="icon"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./contac-style.css" />
+  </head>
+  <body>
+    <h1>Contac From</h1>
+    <fieldset id="personal">
+      <legend>Please keep your personal information</legend>
+      <p>First Name: <input type="text" name="first-name" required /></p>
+      <p>Last Name: <input type="text" name="last-name" required /></p>
+      <p>Fatehr's Name: <input type="text" name="father-name" /></p>
+      <p>Mother's Name: <input type="text" name="mother-name" /></p>
+      <p>
+        Email:
+        <input
+          type="email"
+          placeholder="example@gmail.com"
+          name="email"
+          required
+        />
+      </p>
+      <p>Phone Number: <input type="tel" name="tel" required /></p>
+      <p>
+        Select Your Gender: <input type="radio" name="gender" />Male
+        <input type="radio" name="gender" />Female
+      </p>
+      <p>Date of Birth: <input type="date" id="date" /></p>
+      <textarea
+        name="Bio"
+        id="Bio"
+        cols="70"
+        rows="13"
+        placeholder="Please write something about you"
+      ></textarea>
+      <br />
+      <input type="submit" value="Submit" id="submit" />
+      <button id="submit">Cancel</button>
+    </fieldset>
+  </body>
+</html>
